@@ -1,3 +1,123 @@
-@font-face{
-    font-family: Arial, Helvetica, sans-serif; 
+html{ 
+    background-color: silver;
+    font-size: 100%;
 }
+body{
+     max-width: 100%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+     -wedkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+     text-size-adjust: none;
+
+     }
+    main{
+        margin: 2.5rem 1.5rem;
+
+    }
+    h1, h2{
+        front-weight: 700;
+
+    }
+    h1{
+        position: relative;
+        font-size: 1.5rem ;
+        margin-left: 2em;
+        margin-bottom: 4rem;
+    }
+
+    h1::before{
+        content:' ';
+        position: absolute;
+        height: 1.5em;
+        width: 1.5em;
+        left: -1.5em;
+        top: 50%;
+
+    }
+
+    h2 {
+        font-size: 1rem;
+        position: relative;
+        margin-left: 2.15em;
+        margin-bottom: 4rem;
+
+    }
+
+    h2::before {
+        content: ' ';
+        position: absolute;
+        background-size: 1.5em;
+        height: 1.5em;
+        width: 1.5em;
+        left: -1.5em;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h3,p{
+        font-weight: 300;
+
+    }
+
+    h3{
+        font-size: 3.5rem;
+        line-height: 1;
+
+    }
+
+        h3.small{
+            font-size: 1rem;
+            font-weight: 700;
+
+    }
+        p{
+            font-size: 1rem;
+            line-height: 1.5;
+
+    }
+
+        ul{
+            margin: 4rem 0;
+        }
+        
+        ul.links, .links a {
+            text-decoration: none;
+            list-style: none;
+            padding: 0;
+        }
+
+        <image> img{
+            postion: absolute;
+            width: 100%;
+            top 75%
+            left: -2rem;
+
+     }
+        .spencer {
+            width: 100%;
+            height: calc(100vw - 4rem);
+            position: relative;
+            margin: auto;
+            border-radius: 60%;
+            overflow: hidden ;
+
+        }   
+        .spencer img{
+            min-width: 100%;
+            min-height: 100%;
+            width: 100%;
+            height: auto;
+            position: absolute ;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        footer {
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 0.5rem;
+        }
+
+        
